@@ -1,2 +1,2 @@
 import streamlit
-stremlit.title ("New application to learn APIs")
+streamlit.title ("New application to learn APIs")
