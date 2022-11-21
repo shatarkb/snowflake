@@ -1,5 +1,7 @@
 import streamlit
-streamlit.title ('New application to learn APIs')
-streamlit.header ('Database Application')
-streamlit.text ('Multiple databases can be used to store the data.')
-streamlit.text ('These databases can be SQL Server, Oracle, Teradata etc.')
+streamlit.title ('My parents new healty Diner')
+streamlit.header('Breakfast Menu')
+streamlit.text('🥣 Omega 3 & Blueberry Oatmeal')
+streamlit.text('🥗 Kale, Spinach & Rocket Smoothie')
+streamlit.text('🐔 Hard-Boiled Free-Range Egg')
+streamlit.text('🥑🍞 Avocado Toast')
