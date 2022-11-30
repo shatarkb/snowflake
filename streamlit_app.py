@@ -19,7 +19,7 @@ streamlit.dataframe(my_fruit_list)
 
 streamlit.header('Fruityvice Fruit Advice!')
 streamlit.text('What fruit would you like information aboout')
-streamlit.multiselect(list(my_fruit_list.index), ['Avocado'])
+
 
 import snowflake.connector
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
@@ -30,4 +30,4 @@ streamlit.header("The fruit load list contains:")
 streamlit.dataframe(my_data_row)
 
 streamlit.text('What fruit would you like to add?')
-streamlit.multiselect(list(my_fruit_list.index), ['Avocado'])
+streamlit.multiselect("What fruit would you like to add?", list(my_fruit_list.index), ['Avocado'])
