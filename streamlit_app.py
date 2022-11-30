@@ -19,6 +19,7 @@ streamlit.dataframe(my_fruit_list)
 
 streamlit.header('Fruityvice Fruit Advice!')
 streamlit.text('What fruit would you like information aboout')
+my_cur.execute("insert into fruit_load_list values ('from streamlit')")
 
 
 import snowflake.connector
@@ -30,4 +31,4 @@ streamlit.header("The fruit load list contains:")
 streamlit.dataframe(my_data_row)
 
 streamlit.text('What fruit would you like to add?')
-streamlit.multiselect("What fruit would you like to add?", list(my_fruit_list.index), ['Avocado'])
+my_cur.execute("insert into fruit_load_list values ('from streamlit')")
